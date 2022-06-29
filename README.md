@@ -12,9 +12,10 @@ Like C, Python also has a linter / style guide like Betty, called PEP8, also now
 
 Enjoy!
 
-## Coder disclaimer:-
+## My disclaimer:-
 Practice makes perfect
-Don't forget the Zen of Python (Keep it at the back of your head at all times while coding in Python)
+Don't forget the Zen of Python (Keep it at the back of your head while coding in Python)
+
                 The Zen of Python, by Tim Peters
 
         Beautiful is better than ugly.
