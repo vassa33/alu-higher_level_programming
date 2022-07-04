@@ -10,7 +10,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 >How to prevent code in your script from being executed when imported
 >How to use command line arguments with your Python programs
 
-# Task:-
+# Tasks:-
 
 ## 0. Import a simple function from a simple file
 mandatory
