@@ -21,7 +21,7 @@ Data structures (until 5.3. Tuples and Sequences included) - https://docs.python
 Learn to Program 6: Lists (YouTube) - https://www.youtube.com/watch?v=A1HUzrvS-Pw 
 
 # Tasks :-
-0. Print a list of integers
+## 0. Print a list of integers
 
 Write a function that prints all integers of a list.
 
@@ -32,7 +32,7 @@ You can assume that the list only contains integers
 You are not allowed to cast integers into strings
 You have to use str.format() to print integers
 
-1. Secure access to an element in a list
+## 1. Secure access to an element in a list
 
 Write a function that retrieves an element from a list like in C.
 
