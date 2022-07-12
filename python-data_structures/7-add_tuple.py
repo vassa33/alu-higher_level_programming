@@ -6,5 +6,5 @@ def add_tuple(tuple_a=(), tuple_b=()):
         a = (tuple_a[0], 0)
     if len(tuple_b) == 1:
         b = (tuple_b[0], 0)
-    new = ([0]+ b[0], a[a 1] + b[1])
+    new = (a[0] + b[0], a[1] + b[1])
     return new
