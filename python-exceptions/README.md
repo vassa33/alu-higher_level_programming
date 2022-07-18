@@ -135,6 +135,7 @@ You have to use try: / except:
 
 Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
 
+
   3           0 LOAD_CONST               1 (0)
               3 STORE_FAST               2 (result)
 
