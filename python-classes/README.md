@@ -37,6 +37,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 >> All your classes should have a documentation 
 >> All your functions (inside and outside a class) should have a documentation
 >> A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+>> Example Google Style Python Docstrinbgs - https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html  
 
 # Tasks:- 
 
