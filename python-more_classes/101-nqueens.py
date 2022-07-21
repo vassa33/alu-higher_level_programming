@@ -4,9 +4,11 @@
 
 def solve(queens, size, start):
     """Recursive function to solve N queens problem
+    
     Args:
         queens: number of queens to place
         size: size of board
+    
     Returns True if valid move, False otherwise
     """
     if queens == 0:
@@ -34,11 +36,13 @@ def solve(queens, size, start):
 
 def isValid(x, y, size):
     """Returns whether a coordinate is valid and will not be attacked
+    
     Args:
         x: x coordinate
         y: y coordinate
         size: size of board
-    Returns True if valid coordinate, False otherwise
+   
+   Returns True if valid coordinate, False otherwise
     """
     for i in range(size):
         if board[i][y] == 1 or board[x][i] == 1:
