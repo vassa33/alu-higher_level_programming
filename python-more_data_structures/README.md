@@ -3,17 +3,17 @@
 ## General - Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
->Why Python programming is awesome
->What are sets and how to use them
->What are the most common methods of set and how to use them
->When to use sets versus lists
->How to iterate into a set
->What are dictionaries and how to use them
->Whento u dicionaries versus lists or setsis set
->Wht a a key in a dictionary
->How to iterate over a dictionary
->What is a lambda function
->What are the map, reduce and filter functions
+> Why Python programming is awesome  
+> What are sets and how to use them  
+> What are the most common methods of set and how to use them  
+> When to use sets versus lists  
+> How to iterate into a set  
+> What are dictionaries and how to use them  
+> When to u dicionaries versus lists or setsis set  
+> What a a key in a dictionary  
+> How to iterate over a dictionary  
+> What is a lambda function  
+> What are the map, reduce and filter functions  
 
 # Tasks:-
 ## 0. Squared simple
@@ -156,23 +156,23 @@ You are not allowed to import any module
 
 Write a function that computes the square value of all integers of a matrix using map
 
-Prototype: def square_matrix_map(matrix=[]):
-matrix is a 2 dimensional array
-Returns a new matrix:
-Same size as matrix
-Each value should be the square of the value of the input
-Initial matrix should not be modified
-You are not allowed to import any module
-You have to use map
-You are not allowed to use for or while
-Your file should be max 3 lines
+Prototype: def square_matrix_map(matrix=[]):  
+matrix is a 2 dimensional array    
+Returns a new matrix:  
+Same size as matrix  
+Each value should be the square of the value of the input  
+Initial matrix should not be modified  
+You are not allowed to import any module  
+You have to use map  
+You are not allowed to use for or while  
+Your file should be max 3 lines  
 
-## 15. Delete by value
-#advanced
+## 15. Delete by value  
+#advanced  
 
-Write a function that deletes keys with a specific value in a dictionary.
+Write a function that deletes keys with a specific value in a dictionary.  
 
-Prototype: def complex_delete(a_dictionary, value):
-If the value doesn’t exist, the dictionary won’t change
+Prototype: def complex_delete(a_dictionary, value):  
+If the value doesn’t exist, the dictionary won’t change  
 All keys having the searched value have to be deleted
 You are not allowed to import any module
