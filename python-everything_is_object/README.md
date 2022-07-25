@@ -19,8 +19,8 @@ A simple, quiz-like project on:
 * all functions (inside and outside of classes) should have documentation
 * python3 -c 'print(__import__("my_module").my_function.__doc__)'
 * .TXT ANSWER FILE REQUIREMENTS
->> only one line
->> no shebang
+>> only one line  
+>> no shebang  
 * all files should end with a new line
 
 
@@ -43,80 +43,103 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 ### 3-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
->>> a = 89
->>> b = 89
+` >>> a = 89 ` 
+` >>> b = 89 ` 
 
-4-answer.txt 
+### 4-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
->>> a = 89
->>> b = a
+` >>> a = 89 ` 
+` >>> b = a ` 
 
-5-answer.txt 
+### 5-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
->>> a = 89
->>> b = a + 1
-6-answer.txt - What should those 3 lines print?
+` >>> a = 89 ` 
+` >>> b = a + 1 ` 
 
->>> s1 = "Holberton"
->>> s2 = s1
->>> print(s1 == s2)
-7-answer.txt - What should those 3 lines print?
+### 6-answer.txt 
+What should those 3 lines print?
 
->>> s1 = "Holberton"
->>> s2 = s1
->>> print(s1 is s2)
-8-answer.txt - What should those 3 lines print?
+` >>> s1 = "Holberton" ` 
+` >>> s2 = s1 ` 
+` >>> print(s1 == s2) ` 
 
->>> s1 = "Holberton"
->>> s2 = "Holberton"
->>> print(s1 == s2)
-9-answer.txt - What should those 3 lines print?
+### 7-answer.txt 
+What should those 3 lines print?
 
->>> s1 = "Holberton"
->>> s2 = "Holberton"
->>> print(s1 is s2)
-10-answer.txt - What should those 3 lines print?
+` >>> s1 = "Holberton" ` 
+` >>> s2 = s1 ` 
+` >>> print(s1 is s2) ` 
 
->>> l1 = [1, 2, 3]
->>> l2 = [1, 2, 3]
->>> print(l1 == l2)
-11-answer.txt - What should those 3 lines print?
+### 8-answer.txt 
+What should those 3 lines print?
 
->>> l1 = [1, 2, 3]
->>> l2 = [1, 2, 3] 
->>> print(l1 is l2)
-12-answer.txt - What should those 3 lines print?
+` >>> s1 = "Holberton" ` 
+` >>> s2 = "Holberton" ` 
+` >>> print(s1 == s2) ` 
 
->>> l1 = [1, 2, 3]
->>> l2 = l1
->>> print(l1 == l2)
-13-answer.txt - What should those 3 lines print?
+### 9-answer.txt 
+What should those 3 lines print?
 
->>> l1 = [1, 2, 3]
->>> l2 = l1
->>> print(l1 is l2)
-14-answer.txt - What should those 3 lines print?
+` >>> s1 = "Holberton" ` 
+` >>> s2 = "Holberton" ` 
+` >>> print(s1 is s2) ` 
 
-l1 = [1, 2, 3]
-l2 = l1
-l1.append(4)
-print(l2)
-15-answer.txt - What should those 3 lines print?
+### 10-answer.txt 
+What should those 3 lines print?
 
-l1 = [1, 2, 3]
-l2 = l1
-l1 = l1 + [4]
-print(l2)
-16-answer.txt - What should those 3 lines print?
+` >>> l1 = [1, 2, 3] ` 
+` >>> l2 = [1, 2, 3] ` 
+` >>> print(l1 == l2) ` 
 
-def increment(n):
+### 11-answer.txt 
+What should those 3 lines print?
+
+` >>> l1 = [1, 2, 3] ` 
+` >>> l2 = [1, 2, 3] ` 
+` >>> print(l1 is l2) ` 
+
+### 12-answer.txt 
+What should those 3 lines print?
+
+` >>> l1 = [1, 2, 3] ` 
+` >>> l2 = l1 ` 
+` >>> print(l1 == l2) ` 
+
+### 13-answer.txt 
+What should those 3 lines print?
+
+` >>> l1 = [1, 2, 3] ` 
+` >>> l2 = l1 ` 
+` >>> print(l1 is l2) ` 
+
+### 14-answer.txt 
+What should those 3 lines print?
+
+` >>> l1 = [1, 2, 3] ` 
+` >>> l2 = l1 ` 
+` >>> l1.append(4) ` 
+` >>> print(l2) `
+
+### 15-answer.txt 
+What should those 3 lines print?
+
+` l1 = [1, 2, 3] ` 
+` l2 = l1 ` 
+` l1 = l1 + [4] ` 
+` print(l2) ` 
+
+### 16-answer.txt 
+What should those 3 lines print?
+
+` def increment(n):
     n += 1
 
 a = 1
 increment(a)
-print(a)
+print(a) ` 
+
 17-answer.txt - What should those 3 lines print?
 
 def increment(n):
