@@ -1,4 +1,4 @@
-# [PYTHON - Everything is object] (https://github.com/vassa33/alu-higher_level_programming/tree/main/python-everything_is_object "everything is object")
+# PYTHON - Everything is object
 
 ## OBJECTIVES ##
 A simple, quiz-like project on:
