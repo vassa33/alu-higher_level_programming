@@ -56,7 +56,7 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 ` >>> a = 89 `   
 ` >>> b = a ` 
 
-### [5-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/5-answer.txt) 
+### [5-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/5-answer.txt)
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
 ` >>> a = 89 `     
