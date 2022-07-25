@@ -24,9 +24,9 @@ A simple, quiz-like project on:
 * all files should end with a new line
 
 
-## TASKS ##
+## TASKS 
 
-### MANDATORY ###
+## MANDATORY 
 
 ### 0-answer.txt 
 What function would you use to print the type of an object?
