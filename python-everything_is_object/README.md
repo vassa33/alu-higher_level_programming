@@ -86,53 +86,53 @@ What should those 3 lines print?
 ### 9-answer.txt 
 What should those 3 lines print?
 
-` >>> s1 = "Holberton" ` 
-` >>> s2 = "Holberton" ` 
-` >>> print(s1 is s2) ` 
+` >>> s1 = "Holberton" `    
+` >>> s2 = "Holberton" `    
+` >>> print(s1 is s2) `    
 
 ### 10-answer.txt 
 What should those 3 lines print?
 
-` >>> l1 = [1, 2, 3] ` 
-` >>> l2 = [1, 2, 3] ` 
-` >>> print(l1 == l2) ` 
+` >>> l1 = [1, 2, 3] `    
+` >>> l2 = [1, 2, 3] `      
+` >>> print(l1 == l2) `    
 
 ### 11-answer.txt 
 What should those 3 lines print?
 
-` >>> l1 = [1, 2, 3] ` 
-` >>> l2 = [1, 2, 3] ` 
-` >>> print(l1 is l2) ` 
+` >>> l1 = [1, 2, 3] `    
+` >>> l2 = [1, 2, 3] `     
+` >>> print(l1 is l2) `     
 
 ### 12-answer.txt 
 What should those 3 lines print?
 
-` >>> l1 = [1, 2, 3] ` 
-` >>> l2 = l1 ` 
-` >>> print(l1 == l2) ` 
+` >>> l1 = [1, 2, 3] `    
+` >>> l2 = l1 `     
+` >>> print(l1 == l2) `     
 
 ### 13-answer.txt 
 What should those 3 lines print?
 
-` >>> l1 = [1, 2, 3] ` 
-` >>> l2 = l1 ` 
-` >>> print(l1 is l2) ` 
+` >>> l1 = [1, 2, 3] `    
+` >>> l2 = l1 `     
+` >>> print(l1 is l2) `     
 
 ### 14-answer.txt 
 What should those 3 lines print?
 
-` >>> l1 = [1, 2, 3] ` 
-` >>> l2 = l1 ` 
-` >>> l1.append(4) ` 
-` >>> print(l2) `
+` >>> l1 = [1, 2, 3] `    
+` >>> l2 = l1 `     
+` >>> l1.append(4) `    
+` >>> print(l2) `   
 
 ### 15-answer.txt 
 What should those 3 lines print?
 
-` l1 = [1, 2, 3] ` 
-` l2 = l1 ` 
-` l1 = l1 + [4] ` 
-` print(l2) ` 
+` l1 = [1, 2, 3] `    
+` l2 = l1 `      
+` l1 = l1 + [4] `     
+` print(l2) `      
 
 ### 16-answer.txt 
 What should those 3 lines print?
