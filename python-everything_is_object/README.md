@@ -28,13 +28,13 @@ A simple, quiz-like project on:
 
 ## MANDATORY 
 
-### 0-answer.txt 
+### [0-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/0-answer.txt) 
 What function would you use to print the type of an object?
 
-### 1-answer.txt 
+### [1-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/1-answer.txt) 
 What function would you use to to get variable identifier (which is the memory address in the CPython implementation)?
 
-### 2-answer.txt 
+### [2-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/2-answer.txt)
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
 ```
@@ -42,7 +42,7 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 >>> b = 100 
 ```
  
-### 3-answer.txt 
+### [3-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/3-answer.txt) 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
 ```
@@ -50,47 +50,47 @@ In the following code, do a and b point to the same object? Answer with Yes or N
 >>> b = 89 
 ```
 
-### 4-answer.txt 
+### [4-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/4-answer.txt)
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
 ` >>> a = 89 `   
 ` >>> b = a ` 
 
-### 5-answer.txt 
+### [5-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/5-answer.txt) 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
 ` >>> a = 89 `     
 ` >>> b = a + 1 ` 
 
-### 6-answer.txt 
+### [6-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/6-answer.txt) 
 What should those 3 lines print?
 
 ` >>> s1 = "Holberton" `    
 ` >>> s2 = s1 `    
 ` >>> print(s1 == s2) `   
 
-### 7-answer.txt 
+### [7-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/7-answer.txt)
 What should those 3 lines print?
 
 ` >>> s1 = "Holberton" `    
 ` >>> s2 = s1 `    
 ` >>> print(s1 is s2) `   
 
-### 8-answer.txt 
+### [8-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/8-answer.txt)
 What should those 3 lines print?
 
 ` >>> s1 = "Holberton" `    
 ` >>> s2 = "Holberton" `    
 ` >>> print(s1 == s2) ` 
 
-### 9-answer.txt 
+### [9-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/9-answer.txt) 
 What should those 3 lines print?
 
 ` >>> s1 = "Holberton" `    
 ` >>> s2 = "Holberton" `    
 ` >>> print(s1 is s2) `    
 
-### 10-answer.txt 
+### [10-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/10-answer.txt)
 What should those 3 lines print?
 
 ` >>> l1 = [1, 2, 3] `    
