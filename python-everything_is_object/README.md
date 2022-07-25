@@ -133,23 +133,31 @@ What should those 3 lines print?
 ### 16-answer.txt 
 What should those 3 lines print?
 
-``` def increment(n):
+```
+def increment(n):
     n += 1
 
 a = 1
 increment(a)
-print(a) ``` 
+print(a) 
+```  
 
-17-answer.txt - What should those 3 lines print?
+### 17-answer.txt 
+What should those 3 lines print?
 
+``` 
 def increment(n):
     n.append(4)
 
 l = [1, 2, 3]
 increment(l)
 print(l)
-18-answer.txt - What should those 3 lines print?
+```  
 
+### 18-answer.txt 
+What should those 3 lines print?
+
+``` 
 def assign_value(n, v):
     n = v
 
@@ -157,53 +165,85 @@ l1 = [1, 2, 3]
 l2 = [4, 5, 6]
 assign_value(l1, l2)
 print(l1)
-19-copy_list.py - Write a function that returns a copy of a list
-Prototype: def copy_list(l):
+```
 
-20-answer.txt - Is a a tuple? Answer with Yes or No.
+### 19-copy_list.py 
+Write a function that returns a copy of a list
+` Prototype: def copy_list(l): ` 
 
-a = ()
-21-answer.txt - Is a a tuple? Answer with Yes or No.
+### 20-answer.txt 
+Is a a tuple? Answer with Yes or No.
 
-a = (1, 2)
-22-answer.txt - Is a a tuple? Answer with Yes or No.
+` a = () ` 
 
-a = (1)
-23-answer.txt - Is a a tuple? Answer with Yes or No.
+### 21-answer.txt 
+Is a a tuple? Answer with Yes or No.
 
-a = (1, )
-24-answer.txt - What should those 3 lines print?
+` a = (1, 2) ` 
 
+### 22-answer.txt 
+Is a a tuple? Answer with Yes or No.
+
+` a = (1) ` 
+
+### 23-answer.txt 
+Is a a tuple? Answer with Yes or No.
+
+` a = (1, ) ` 
+
+### 24-answer.txt 
+What should those 3 lines print?
+
+```
 a = (1)
 b = (1)
 a is b
-25-answer.txt - What should those 3 lines print?
+```
 
+### 25-answer.txt 
+What should those 3 lines print?
+
+```
 a = (1, 2)
 b = (1, 2)
 a is b
-26-answer.txt - What should those 3 lines print?
+``` 
 
+### 26-answer.txt 
+What should those 3 lines print?
+
+```
 a = ()
 b = ()
 a is b
-27-answer.txt - Will the last line of this script print 139926795932424? Answer with Yes or No.
+```
 
+### 27-answer.txt 
+Will the last line of this script print 139926795932424? Answer with Yes or No.
+
+```
 >>> id(a)
 139926795932424
 >>> a
 [1, 2, 3, 4]
 >>> a = a + [5]
->>> id(a)
-28-answer.txt - Will the last line of this script print 139926795932424? Answer with Yes or No.
+>>> id(a) 
+```
 
+### 28-answer.txt 
+Will the last line of this script print 139926795932424? Answer with Yes or No.
+
+```
 >>> a
 [1, 2, 3]
 >>> id (a)
 139926795932424
 >>> a += [4]
 >>> id(a)
-Blog Post: Python Objects - Write a blog post on everything this project covers. It should be organized in the following way:
+```
+
+### Blog Post: Python Objects 
+Write a blog post on everything this project covers. It should be organized in the following way:
 * Introduction
 * ID and Types
 * Mutable objects
@@ -211,29 +251,37 @@ Blog Post: Python Objects - Write a blog post on everything this project covers.
 * How differently does Python treat mutable and immutable objects and why does it matter?
 * How are arguments passed to functions? What does that imply for mutable and immutable objects?
 
-ADVANCED
-100-magic_string.py - Write a function magic_string() that returns a string "Holberton" n times the number of iterations.
+## ADVANCED
+### 100-magic_string.py 
+Write a function magic_string() that returns a string "Holberton" n times the number of iterations.
 
-101-locked_class.py - Write a class LockedClass with no class or object attribute, that prevents the user to dynamically create new instance attributes, except if the new instance attribute is called first_name.
+### 101-locked_class.py 
+Write a class LockedClass with no class or object attribute, that prevents the user to dynamically create new instance attributes, except if the new instance attribute is called first_name.
 
-103-line
+### 103-line
 
+```
 julien@ubuntu:/python3$ cat int.py 
 a = 1
 b = 1
+```
+```
 julien@ubuntu:/python3$ 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
 103-line1.txt - How many int objects are created by the execution of the first line of the script?
 103-line2.txt - How many int objects are created by the execution of the second line of the script?
 104-line
-
+```
+```
 julien@ubuntu:/python3$ cat int.py 
 a = 1024
 b = 1024
 del a
 del b
 c = 1024
+```
+```
 julien@ubuntu:/python3$ 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
@@ -243,12 +291,14 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 104-line4.txt - After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No
 104-line5.txt - How many int objects are created by the execution of the last line of the script
 105-line -
-
+```
+```
 julien@twix:/tmp/so$ cat int.py 
 print("I")
 print("Love")
 print("Python")
 julien@ubuntu:/tmp/so$ 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
+```
 
 105-line1.txt - Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory?
