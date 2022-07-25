@@ -133,12 +133,12 @@ What should those 3 lines print?
 ### 16-answer.txt 
 What should those 3 lines print?
 
-` def increment(n):
+``` def increment(n):
     n += 1
 
 a = 1
 increment(a)
-print(a) ` 
+print(a) ``` 
 
 17-answer.txt - What should those 3 lines print?
 
