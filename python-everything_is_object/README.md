@@ -97,28 +97,28 @@ What should those 3 lines print?
 ` >>> l2 = [1, 2, 3] `      
 ` >>> print(l1 == l2) `    
 
-### 11-answer.txt 
+### [11-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/11-answer.txt) 
 What should those 3 lines print?
 
 ` >>> l1 = [1, 2, 3] `    
 ` >>> l2 = [1, 2, 3] `     
 ` >>> print(l1 is l2) `     
 
-### 12-answer.txt 
+### [12-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/12-answer.txt) 
 What should those 3 lines print?
 
 ` >>> l1 = [1, 2, 3] `    
 ` >>> l2 = l1 `     
 ` >>> print(l1 == l2) `     
 
-### 13-answer.txt 
+### [13-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/13-answer.txt) 
 What should those 3 lines print?
 
 ` >>> l1 = [1, 2, 3] `    
 ` >>> l2 = l1 `     
 ` >>> print(l1 is l2) `     
 
-### 14-answer.txt 
+### [14-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/14-answer.txt) 
 What should those 3 lines print?
 
 ` >>> l1 = [1, 2, 3] `    
@@ -126,7 +126,7 @@ What should those 3 lines print?
 ` >>> l1.append(4) `    
 ` >>> print(l2) `   
 
-### 15-answer.txt 
+### [15-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/15-answer.txt) 
 What should those 3 lines print?
 
 ` l1 = [1, 2, 3] `    
@@ -134,7 +134,7 @@ What should those 3 lines print?
 ` l1 = l1 + [4] `     
 ` print(l2) `      
 
-### 16-answer.txt 
+### [16-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/16-answer.txt) 
 What should those 3 lines print?
 
 ```
@@ -146,7 +146,7 @@ increment(a)
 print(a) 
 ```  
 
-### 17-answer.txt 
+### [17-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/17-answer.txt) 
 What should those 3 lines print?
 
 ``` 
@@ -158,7 +158,7 @@ increment(l)
 print(l)
 ```  
 
-### 18-answer.txt 
+### [18-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/18-answer.txt) 
 What should those 3 lines print?
 
 ``` 
@@ -171,31 +171,31 @@ assign_value(l1, l2)
 print(l1)
 ```
 
-### 19-copy_list.py 
+### [19-copy_list.py](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/19-copy_list.py)
 Write a function that returns a copy of a list
 ` Prototype: def copy_list(l): ` 
 
-### 20-answer.txt 
+### [20-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/20-answer.txt) 
 Is a a tuple? Answer with Yes or No.
 
 ` a = () ` 
 
-### 21-answer.txt 
+### [21-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/21-answer.txt)
 Is a a tuple? Answer with Yes or No.
 
 ` a = (1, 2) ` 
 
-### 22-answer.txt 
+### [22-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/22-answer.txt)
 Is a a tuple? Answer with Yes or No.
 
 ` a = (1) ` 
 
-### 23-answer.txt 
+### [23-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/23-answer.txt) 
 Is a a tuple? Answer with Yes or No.
 
 ` a = (1, ) ` 
 
-### 24-answer.txt 
+### [24-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/24-answer.txt) 
 What should those 3 lines print?
 
 ```
@@ -204,7 +204,7 @@ b = (1)
 a is b
 ```
 
-### 25-answer.txt 
+### [25-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/25-answer.txt) 
 What should those 3 lines print?
 
 ```
@@ -213,7 +213,7 @@ b = (1, 2)
 a is b
 ``` 
 
-### 26-answer.txt 
+### [26-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/26-answer.txt)
 What should those 3 lines print?
 
 ```
@@ -222,7 +222,7 @@ b = ()
 a is b
 ```
 
-### 27-answer.txt 
+### [27-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/27-answer.txt)
 Will the last line of this script print 139926795932424? Answer with Yes or No.
 
 ```
@@ -234,7 +234,7 @@ Will the last line of this script print 139926795932424? Answer with Yes or No.
 >>> id(a) 
 ```
 
-### 28-answer.txt 
+### [28-answer.txt](https://github.com/vassa33/alu-higher_level_programming/blob/main/python-everything_is_object/28-answer.txt)
 Will the last line of this script print 139926795932424? Answer with Yes or No.
 
 ```
