@@ -1,6 +1,6 @@
-# PYTHON - Everything is object
+# PYTHON - Everything is object #
 
-## OBJECTIVES
+## OBJECTIVES ##
 A simple, quiz-like project on:
 
 objects
@@ -10,7 +10,7 @@ mutable vs. immutable objects
 aliases
 variable identifiers
 
-## PYTHON SCRIPT REQUIREMENTS
+### PYTHON SCRIPT REQUIREMENTS ###
 the first line of all files should be exactly #!/usr/bin/python3
 all code should use the PEP8 style (version 1.7.*)
 all files must be executable
@@ -24,9 +24,9 @@ no shebang
 all files should end with a new line
 
 
-# TASKS
+## TASKS ##
 
-## MANDATORY
+### MANDATORY ###
 
 ## 0-answer.txt 
 What function would you use to print the type of an object?
@@ -37,7 +37,7 @@ What function would you use to to get variable identifier (which is the memory a
 ## 2-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-' >>> a = 89 '
+' >>> a = 89 '  
 ' >>> b = 100 '
  
 ## 3-answer.txt 
