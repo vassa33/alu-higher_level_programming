@@ -37,46 +37,50 @@ What function would you use to to get variable identifier (which is the memory a
 ### 2-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-` >>> a = 89 `  
-` >>> b = 100 `
+```
+>>> a = 89     
+>>> b = 100 
+```
  
 ### 3-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-` >>> a = 89 ` 
-` >>> b = 89 ` 
+```
+>>> a = 89  
+>>> b = 89 
+```
 
 ### 4-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-` >>> a = 89 ` 
+` >>> a = 89 `   
 ` >>> b = a ` 
 
 ### 5-answer.txt 
 In the following code, do a and b point to the same object? Answer with Yes or No.
 
-` >>> a = 89 ` 
+` >>> a = 89 `     
 ` >>> b = a + 1 ` 
 
 ### 6-answer.txt 
 What should those 3 lines print?
 
-` >>> s1 = "Holberton" ` 
-` >>> s2 = s1 ` 
-` >>> print(s1 == s2) ` 
+` >>> s1 = "Holberton" `    
+` >>> s2 = s1 `    
+` >>> print(s1 == s2) `   
 
 ### 7-answer.txt 
 What should those 3 lines print?
 
-` >>> s1 = "Holberton" ` 
-` >>> s2 = s1 ` 
-` >>> print(s1 is s2) ` 
+` >>> s1 = "Holberton" `    
+` >>> s2 = s1 `    
+` >>> print(s1 is s2) `   
 
 ### 8-answer.txt 
 What should those 3 lines print?
 
-` >>> s1 = "Holberton" ` 
-` >>> s2 = "Holberton" ` 
+` >>> s1 = "Holberton" `    
+` >>> s2 = "Holberton" `    
 ` >>> print(s1 == s2) ` 
 
 ### 9-answer.txt 
@@ -281,6 +285,8 @@ del a
 del b
 c = 1024
 ```
+
+### 104-line
 ```
 julien@ubuntu:/python3$ 
 Assuming we are using a CPython implementation of Python3 with default options/configuration:
@@ -290,8 +296,9 @@ Assuming we are using a CPython implementation of Python3 with default options/c
 104-line3.txt - After the execution of line 3, is the int object pointed by a deleted? Answer with Yes or No
 104-line4.txt - After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No
 104-line5.txt - How many int objects are created by the execution of the last line of the script
-105-line -
 ```
+### 105-line -
+
 ```
 julien@twix:/tmp/so$ cat int.py 
 print("I")
