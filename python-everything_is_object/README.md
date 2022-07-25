@@ -3,12 +3,12 @@
 ## OBJECTIVES ##
 A simple, quiz-like project on:
 
-objects
-references
-assignments
-mutable vs. immutable objects
-aliases
-variable identifiers
+* objects
+* references
+* assignments
+* mutable vs. immutable objects
+* aliases
+* variable identifiers
 
 ### PYTHON SCRIPT REQUIREMENTS ###
 the first line of all files should be exactly #!/usr/bin/python3
