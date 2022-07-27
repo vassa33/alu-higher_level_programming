@@ -4,7 +4,7 @@ Be able to explain:
 
 * superclasses, baseclasses, parentclasses, and subclasses
 * inheritance
-* the builtin functions ' isinstance ', 'issubclass', 'type', and 'super'
+* the builtin functions `isinstance`, `issubclass`, `type`, and `super`
 
 ## REQUIREMENTS
 ### PYTHON SCRIPT REQUIREMENTS
@@ -16,9 +16,9 @@ Be able to explain:
 ### PYTHON TEST CASE REQUIREMENTS
 * all test files should be in the folder 'tests'
 * all test files should be text files (extension: '.txt')
-* all test files should be executed using the command 'python3 -m doctest ./tests/*'
-* all modules should have documentation 'python3 -c 'print(__import__("my_module").__doc__)''
-* all functions (inside and outside of classes) should have documentation python3 -c 'print(__import__("my_module").my_function.__doc__)'
+* all test files should be executed using the command `python3 -m doctest ./tests/*`
+* all modules should have documentation 'python3 -c `print(__import__("my_module").__doc__)'`
+* all functions (inside and outside of classes) should have documentation `python3 -c 'print(__import__("my_module").my_function.__doc__)'`
 
 
 ## TASKS
