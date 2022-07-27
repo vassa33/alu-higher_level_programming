@@ -5,6 +5,10 @@
 class BaseGeometry:
     """defines class BaseGeometry"""
     
+    def __init__(self, area):
+            """initializes area"""
+            pass
+    
     def area(self):
         """raises exception"""
         raise Exception('area() is not implememented')
