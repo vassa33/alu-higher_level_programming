@@ -1,10 +1,7 @@
 #!/usr/bin/python3
 """ module 8-rectangle contains subclass Rectangle
 which inherits from class BaseGeometry """
-
-
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
-"""Imports the class BaseGeometry from which to inherit from"""
 
 
 class Rectangle(BaseGeometry):
