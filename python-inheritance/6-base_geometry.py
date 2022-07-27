@@ -8,7 +8,6 @@ class BaseGeometry:
     def __init__(self, area):
         """initializes area"""
         self.area = area
-        pass
     
     def area(self):
         """raises exception"""
