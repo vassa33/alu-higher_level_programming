@@ -4,7 +4,7 @@ Be able to explain:
 
 * superclasses, baseclasses, parentclasses, and subclasses
 * inheritance
-* the builtin functions 'isinstance', 'issubclass', 'type', and 'super'
+* the builtin functions ' isinstance ', 'issubclass', 'type', and 'super'
 
 ## REQUIREMENTS
 ### PYTHON SCRIPT REQUIREMENTS
