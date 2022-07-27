@@ -4,7 +4,8 @@ which inherits from class BaseGeometry """
 
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
-"""Import the class BaseGeometry from which to inherit from"""
+"""Imports the class BaseGeometry from which to inherit from"""
+
 
 class Rectangle(BaseGeometry):
     """ defines class Rectangle """
