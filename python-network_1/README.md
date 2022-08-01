@@ -1,5 +1,5 @@
 # PYTHON -Network #1
-##Mandatory Tasks
+## Mandatory Tasks
 ### 0-hbtn_status.py
 * Script fetches https://intranet.hbtn.io/status
 * Usage: `./0-hbtn_status.py`
@@ -57,6 +57,8 @@ Body response:
 * Usage: `./10-my_github.py username password`
 * Output: User's id or None
 
+
+## Advanced Tasks
 ### 100-github_commits.py
 * Takes two arguments to send a request to the Github API to get 10 commits
 * Usage: `./100-github_commits repository_name owner_name`
