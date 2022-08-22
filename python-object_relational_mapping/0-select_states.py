@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-''' lists all states from database hbtn_0e_0_usa'''
-
+""" module list states
+from database"""
 
 if __name__ == "__main__":
-    from sys import argv
     import MySQLdb
-    db = MySQLdb.connect(user=argv[1],
-                         passwd=argv[2],
-                         db=argv[3])
+    from sys import argv
+    # port and host are default local and 3306
+    db = MySQLdb.connect(user=argv[1], passwd=argv[2], db=argv[3])
     cur = db.cursor()
-    cur.execute("SELECT * from states ORDER BY states.id")
-    state_list = cur.fetchall()
-    for state in state_list:
-        print(state)
+    cur.execute("""SELECT * FROM states ORDER BY states.id ASC""")
+    result = cur.fetchall()
+    for i in result:
+        print(i)
+    # close cursor and db
     cur.close()
     db.close()
