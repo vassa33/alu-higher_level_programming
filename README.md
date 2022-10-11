@@ -2,9 +2,10 @@
 
 ## WELCOME TO PYTHON, SQL & JAVASCRIPT
 
-> Practice makes perfect
+> Practice makes perfect 
 > Let the zen of python be your guide through higher level programming 
-> **And with that, let's begin!
+> *And with that, let's begin!
+
 
                 The Zen of Python, by Tim Peters
 
