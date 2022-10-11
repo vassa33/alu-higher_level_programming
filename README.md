@@ -3,7 +3,7 @@
 ## WELCOME TO PYTHON, SQL & JAVASCRIPT
 
 > Practice makes perfect 
-> Let the zen of python be your guide through higher level programming 
+>> Let the zen of python be your guide through higher level programming 
 > *And with that, let's begin!
 
 
