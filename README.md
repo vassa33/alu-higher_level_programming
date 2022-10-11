@@ -2,8 +2,9 @@
 
 ## WELCOME TO PYTHON, SQL & JAVASCRIPT
 
-## My disclaimer:-
-Practice makes perfect
+> Practice makes perfect
+> Let the zen of python be your guide through higher level programming 
+> **And with that, let's begin!
 
                 The Zen of Python, by Tim Peters
 
@@ -27,5 +28,4 @@ Practice makes perfect
         If the implementation is easy to explain, it may be a good idea.
         Namespaces are one honking great idea -- let's do more of those!
 
->> Let the zen of python be your guide through higher level programming
->> **And with that, let's begin!
+
