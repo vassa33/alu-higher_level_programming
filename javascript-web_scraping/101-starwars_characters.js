@@ -1,28 +1,46 @@
 #!/usr/bin/node
-let request = require('request');
-let episodeNumber = process.argv[2];
-let url = 'http://swapi.co/api/films/' + episodeNumber;
-request(url, function (err, response, body) {
-  if (err) {
-    console.log(err);
-  } else if (response.statusCode === 200) {
-    let charDict = {};
-    let allChars = JSON.parse(body).characters;
-    for (let c in allChars) {
-      request(allChars[c], function (err, response, body) {
-        if (err) {
-          console.log(err);
-        } else {
-          charDict[c] = JSON.parse(body).name;
-        }
-        if (allChars.length === Object.keys(charDict).length) {
-          for (let key in charDict) {
-            console.log(charDict[key]);
-          }
-        }
+
+const request = require('request');
+const { argv, exit } = require('process');
+
+if (argv.length !== 3) {
+  exit(0);
+}
+
+const options = {
+  url: `https://swapi-api.hbtn.io/api/films/${argv[2]}/`,
+  method: 'GET',
+  headers: {
+    'Accept-Charset': 'utf-8'
+  }
+};
+
+function requestStart (optionsUrl, saveValue) {
+  request(optionsUrl, function (err, res, body) {
+    if (err) throw err;
+
+    const characters = JSON.parse(body).characters;
+    const result = {};
+
+    characters.forEach(element => {
+      request(element, function (err, res, _body) {
+        if (err) throw err;
+
+        const name = JSON.parse(_body).name;
+
+        result[element.split('/')[5]] = name;
+        saveValue(result, characters.length);
       });
+    });
+  });
+}
+
+let i = 0;
+requestStart(options, function (dict, length) {
+  i++;
+  if (i === length) {
+    for (const name in dict) {
+      console.log(dict[name]);
     }
-  } else {
-    console.log('Wrong status code');
   }
 });
